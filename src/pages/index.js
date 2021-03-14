@@ -5,7 +5,6 @@ import * as styles from '../styles/home.module.css'
 import Img from 'gatsby-image'
 
 export default function Home({ data }) {
-  console.log(data)
   return (
     <Layout>
       <section className={styles.header}>
